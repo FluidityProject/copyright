@@ -1,0 +1,78 @@
+% This version for paper with a printed logo.
+%\documentclass[logo]{impletter}
+% This version for plain paper.
+\documentclass[blank]{impletter}
+
+
+% To move the printed page up (minus value) or down (plus value):
+\addtolength{\topmargin}{0mm}
+% To move the printed text to the right (plus) or left (minus).
+\addtolength{\evensidemargin}{0pt}
+\addtolength{\oddsidemargin}{0pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\today}{Date: \rule{4cm}{0.1mm}}
+
+\begin{document}
+
+
+\headers{
+% Replace with the addressee details but DO NOT remove the \\ even if empty
+\mbox{}\\
+\\
+\\
+\\
+\\
+}
+% Replace with the salutation for this letter
+{
+
+}
+% Replace with your department, address, telephone, fax and e-mail.
+% Do not remove the blank lines.
+{
+Department of Earth Science and Engineering,\\
+Imperial College London\\
+
+% Could add a line with the room number and building here
+% and end the new line with \\
+South Kensington Campus, London SW7 2AZ, UK\\
+\\
+
+\mbox{}\\
+\\
+}
+% Replace with your name
+{
+\mbox{}
+}
+% Replace with your qualifications
+{
+\\
+}
+% Replace with your job title. A second line can be added if necessary.
+{
+\\
+}
+\textbf{CONSENT TO COPYRIGHT LICENSING UNDER THE LGPL}
+\informal
+
+% The text of the letter starts here
+I give my consent to the redistribution and/or modification of my 
+contributions to the\\
+\mbox{Fluidity/Imperial College Ocean Model} project 
+under the terms of the GNU Lesser General Public License as published 
+by the Free Software Foundation; either version 2.1 of the License, or
+(at each distributor's option) any later version.
+
+\vspace{2cm}
+
+% Leave the name field blank if you don't want your name to be
+% printed at the bottom, but do not remove the {}.
+\close{
+Signed: \rule{8cm}{0.1mm}
+}
+{
+Print name: \rule{8cm}{0.1mm}
+}
+\end{document}
